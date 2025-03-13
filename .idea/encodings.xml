@@ -3,6 +3,10 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/gilimail-ware/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gilimail-ware/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gulimail-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gulimail-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gulimail-common/untitled/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gulimail-common/untitled/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gulimail-coupon/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gulimail-coupon/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gulimail-member/src/main/java" charset="UTF-8" />
@@ -11,5 +15,7 @@
     <file url="file://$PROJECT_DIR$/gulimail-order/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gulimail-product/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gulimail-product/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renren-fast/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renren-generator/src/main/java" charset="UTF-8" />
   </component>
 </project>
