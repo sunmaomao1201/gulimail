@@ -4,6 +4,12 @@ spring:
     url: jdbc:mysql://localhost:3306/gulimall_wms
     username: root
     password: 1234
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: gilimail-ware
 mybatis-plus:
   mapper-locations: class-path:/mapper/**/*.xml
   global-config:

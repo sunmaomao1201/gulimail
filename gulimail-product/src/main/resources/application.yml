@@ -1,11 +1,17 @@
 server:
-  port: 8081
+  port: 11000
 spring:
   datasource:
     username: root
     password: 1234
     url: jdbc:mysql://localhost:3306/gulimall_pms
     driver-class-name:  com.mysql.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: gulimail-product
 mybatis-plus:
   mapper-locations: class-path:/mapper/**/*.xml
   global-config:

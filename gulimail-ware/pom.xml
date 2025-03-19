@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.itguigu</groupId>
-    <artifactId>gilimail-ware</artifactId>
+    <artifactId>gulimail-ware</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>gilimail-ware</name>
-    <description>gilimail-ware</description>
+    <name>gulimail-ware</name>
+    <description>gulimail-ware</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

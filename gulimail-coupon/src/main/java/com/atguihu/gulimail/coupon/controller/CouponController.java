@@ -6,6 +6,7 @@ import java.util.Map;
 import com.itguigu.common.utils.PageUtils;
 import com.itguigu.common.utils.R;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -30,7 +31,15 @@ import com.atguihu.gulimail.coupon.service.CouponService;
 public class CouponController {
     @Autowired
     private CouponService couponService;
-
+//   @Value("${sonter}")
+//   private String sonter;
+//
+//
+//
+//    @RequestMapping("menberCoupon")
+//    public R memberCoupon(){
+//        return R.ok().put("coupon",sonter);
+//    }
     /**
      * 列表
      */

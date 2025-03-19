@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Map;
 
 
+import com.atguihu.gulimail.member.feign.CouponFeignService;
 import com.itguigu.common.utils.PageUtils;
 import com.itguigu.common.utils.R;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,7 +32,16 @@ import com.atguihu.gulimail.member.service.MemberService;
 public class MemberController {
     @Autowired
     private MemberService memberService;
+    @Autowired
+    CouponFeignService couponFeignService;
 
+    @RequestMapping("/coupon")
+    public R couponMember(){
+        MemberEntity memberEntity = new MemberEntity();
+        memberEntity.setNickname("喜羊羊");
+        R r = couponFeignService.memberCoupon();
+        return R.ok().put("member", memberEntity).put("coupon", r.get("coupon"));
+    }
     /**
      * 列表
      */

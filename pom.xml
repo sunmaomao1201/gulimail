@@ -11,11 +11,10 @@
     <modules>
         <module>gulimail-order</module>
         <module>gulimail-product</module>
-        <module>gilimail-ware</module>
+        <module>gulimail-ware</module>
         <module>gulimail-coupon</module>
         <module>gulimail-member</module>
-<!--        <module>renren-fast</module>-->
-<!--        <module>renren-generator</module>-->
         <module>gulimail-common</module>
+        <module>gulimail-gateway</module>
     </modules>
 </project>
